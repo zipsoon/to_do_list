@@ -7,4 +7,4 @@ class Todo(models.Model):
     done = models.BooleanField(default=False)
 
     def _str_(self):
-        pass
+        return self.thing
